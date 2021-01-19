@@ -1,0 +1,155 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="theme-color" content="#a4b8e0"><meta name="author" content="Jenny Cruise"><meta name="copyright" content="Jenny Cruise"><meta name="generator" content="Hexo 5.3.0"><meta name="theme" content="hexo-theme-yun"><title>搭建笔记 | Starlight</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@900&amp;display=swap" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/star-markdown-css@0.1.22/dist/yun/yun-markdown.min.css"><script src="//at.alicdn.com/t/font_1140697_ed8vp4atwoj.js" async></script><script src="https://cdn.jsdelivr.net/npm/scrollreveal/dist/scrollreveal.min.js" defer></script><script>document.addEventListener("DOMContentLoaded", () => {
+  [".post-card",".post-content img"].forEach((target)=> {
+    ScrollReveal().reveal(target);
+  })
+});
+</script><link class="aplayer-style-marker" rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script class="aplayer-script-marker" src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" defer></script><script class="meting-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js" defer></script><script src="https://cdn.jsdelivr.net/npm/pjax@latest/pjax.min.js" defer></script><script src="/js/pjax.js" defer></script><script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script><link id="light-prism-css" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.20.0/themes/prism.css" media="(prefers-color-scheme: light)"><link id="dark-prism-css" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.20.0/themes/prism-tomorrow.css" media="(prefers-color-scheme: dark)"><link rel="shortcut icon" type="image/svg+xml" href="/yun.svg"><link rel="mask-icon" href="/yun.svg" color="#a4b8e0"><link rel="alternate icon" href="/yun.ico"><link rel="preload" href="/css/hexo-theme-yun.css" as="style"><link rel="preload" href="/js/utils.js" as="script"><link rel="preload" href="/js/hexo-theme-yun.js" as="script"><link rel="prefetch" href="/js/sidebar.js" as="script"><link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin><script id="yun-config">
+    const Yun = window.Yun || {};
+    window.CONFIG = {"hostname":"example.com","root":"/","title":["Jenny","Cruise"],"version":"1.4.0","mode":"auto","copycode":true,"page":{"isPost":true},"anonymous_image":"https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/avatar/none.jpg","say":{"api":"https://cdn.jsdelivr.net/gh/JennyCruise/CDN@1.7/sentences.json"},"local_search":{"path":"/search.xml"},"fireworks":{"colors":["102, 167, 221","62, 131, 225","33, 78, 194"]}};
+  </script><link rel="stylesheet" href="/css/hexo-theme-yun.css"><script src="/js/utils.js"></script><script src="/js/hexo-theme-yun.js"></script><script>CONFIG.leancloudVisitors = {"enable":true,"app_id":"pvizlKnO81ay1Jf9d3yUYUce-gzGzoHsz","app_key":"RrCwXMnS7s7ocsFq6E1IY4mY","server_url":null}</script><script defer src="/js/analytics/leancloud-visitors.js"></script><meta name="description" content="record">
+<meta property="og:type" content="article">
+<meta property="og:title" content="搭建笔记">
+<meta property="og:url" content="http://example.com/2020/06/27/%E6%90%AD%E5%BB%BA%E7%AC%94%E8%AE%B0/index.html">
+<meta property="og:site_name" content="Starlight">
+<meta property="og:description" content="record">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2020-06-27T01:35:54.000Z">
+<meta property="article:modified_time" content="2021-01-19T09:25:40.000Z">
+<meta property="article:author" content="Jenny Cruise">
+<meta property="article:tag" content="日常">
+<meta property="article:tag" content="HEXO">
+<meta name="twitter:card" content="summary"><script src="/js/ui/mode.js"></script></head><body><script defer src="https://cdn.jsdelivr.net/npm/animejs@latest"></script><script defer src="/js/ui/fireworks.js"></script><canvas class="fireworks"></canvas><div class="container"><a class="sidebar-toggle hty-icon-button" id="menu-btn"><div class="hamburger hamburger--spin" type="button"><span class="hamburger-box"><span class="hamburger-inner"></span></span></div></a><div class="sidebar-toggle sidebar-overlay"></div><aside class="sidebar"><script src="/js/sidebar.js"></script><ul class="sidebar-nav"><li class="sidebar-nav-item sidebar-nav-toc hty-icon-button sidebar-nav-active" data-target="post-toc-wrap" title="文章目录"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-list-ordered"></use></svg></li><li class="sidebar-nav-item sidebar-nav-overview hty-icon-button" data-target="site-overview-wrap" title="站点概览"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-passport-line"></use></svg></li></ul><div class="sidebar-panel" id="site-overview-wrap"><div class="site-info fix-top"><a class="site-author-avatar" href="/about/" title="Jenny Cruise"><img width="96" loading="lazy" src="https://cdn.jsdelivr.net/gh/JennyCruise/CDN@1.7/images/avatar.jpg" alt="Jenny Cruise"></a><div class="site-author-name"><a href="/about/">Jenny Cruise</a></div><a class="site-name" href="/about/site.html">Starlight</a><sub class="site-subtitle"></sub><div class="site-desciption">知易行难</div></div><nav class="site-state"><a class="site-state-item hty-icon-button icon-home" href="/" title="首页"><span class="site-state-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-home-4-line"></use></svg></span></a><div class="site-state-item"><a href="/archives/" title="归档"><span class="site-state-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-time-line"></use></svg></span><span class="site-state-item-count">16</span></a></div><div class="site-state-item"><a href="/categories/" title="分类"><span class="site-state-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-folder-2-line"></use></svg></span><span class="site-state-item-count">11</span></a></div><div class="site-state-item"><a href="/tags/" title="标签"><span class="site-state-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-price-tag-3-line"></use></svg></span><span class="site-state-item-count">14</span></a></div><a class="site-state-item hty-icon-button" href="/ToDo/" title="文档"><span class="site-state-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-calendar-2-line"></use></svg></span></a></nav><hr style="margin-bottom:0.5rem"><div class="links-of-author"><a class="links-of-author-item hty-icon-button" rel="noopener" href="https://github.com/JennyCruise" title="GitHub" target="_blank" style="color:#6e5494"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-github-line"></use></svg></a><a class="links-of-author-item hty-icon-button" rel="noopener" href="https://music.163.com/?from=infinity#/user/home?id=580176787" title="网易云音乐" target="_blank" style="color:#C20C0C"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-netease-cloud-music-line"></use></svg></a><a class="links-of-author-item hty-icon-button" rel="noopener" href="mailto:caoxiaocao5@gmail.com" title="E-Mail" target="_blank" style="color:#8E71C1"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-mail-line"></use></svg></a></div><br><a class="links-item hty-icon-button" id="toggle-mode-btn" href="javascript:;" title="Mode" style="color: #f1cb64"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-contrast-2-line"></use></svg></a></div><div class="sidebar-panel sidebar-panel-active" id="post-toc-wrap"><div class="post-toc"><div class="post-toc-content"><ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%90%AD%E5%BB%BAHEXO-GitHub-%E6%97%B6%E8%B8%A9%E8%BF%87%E7%9A%84%E5%9D%91"><span class="toc-number">1.</span> <span class="toc-text">搭建HEXO + GitHub 时踩过的坑</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#jsDeliver-Github-%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95"><span class="toc-number">1.1.</span> <span class="toc-text">jsDeliver+Github 使用方法</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E9%A2%84%E8%A7%88%E5%92%8CGitHub-Pages%E4%B8%8D%E5%90%8C"><span class="toc-number">1.2.</span> <span class="toc-text">预览和GitHub Pages不同</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87"><span class="toc-number">1.3.</span> <span class="toc-text">插入图片</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%BD%BF%E7%94%A8prism-plugin"><span class="toc-number">1.4.</span> <span class="toc-text">使用prism-plugin</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%89%B9%E6%AE%8A%E7%AC%A6%E5%8F%B7%E9%9C%80%E8%A6%81%E8%BD%AC%E4%B9%89"><span class="toc-number">1.5.</span> <span class="toc-text">特殊符号需要转义</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%96%87%E5%AD%97%E5%B1%85%E4%B8%AD-amp-amp-%E5%9B%BE%E7%89%87%E5%A4%A7%E5%B0%8F%E4%BD%8D%E7%BD%AE"><span class="toc-number">1.6.</span> <span class="toc-text">文字居中 &amp;&amp; 图片大小位置</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%9B%B4%E6%94%B9%E6%96%87%E5%AD%97%E6%AD%A3%E6%96%87%E9%A1%B5%E9%9D%A2%E7%9A%84%E9%80%8F%E6%98%8E%E5%BA%A6"><span class="toc-number">1.7.</span> <span class="toc-text">更改文字正文页面的透明度</span></a></li></ol></li></ol></div></div></div></aside><main class="sidebar-translate" id="content"><div id="post"><article class="post-block" itemscope itemtype="https://schema.org/Article"><link itemprop="mainEntityOfPage" href="http://example.com/2020/06/27/%E6%90%AD%E5%BB%BA%E7%AC%94%E8%AE%B0/"><span hidden itemprop="author" itemscope itemtype="https://schema.org/Person"><meta itemprop="name" content="Jenny Cruise"><meta itemprop="description"></span><span hidden itemprop="publisher" itemscope itemtype="https://schema.org/Organization"><meta itemprop="name" content="Starlight"></span><header class="post-header"><h1 class="post-title" itemprop="name headline">搭建笔记</h1><div class="post-meta"><div class="post-time" style="display:block"><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-calendar-line"></use></svg></span> <time title="创建时间：2020-06-27 09:35:54" itemprop="dateCreated datePublished" datetime="2020-06-27T09:35:54+08:00">2020-06-27</time><span class="post-meta-divider">-</span><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-calendar-2-line"></use></svg></span> <time title="修改时间：2021-01-19 17:25:40" itemprop="dateModified" datetime="2021-01-19T17:25:40+08:00">2021-01-19</time></div><span class="post-count"><span class="post-symbolcount"><span class="post-meta-item-icon" title="本文字数"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-file-word-line"></use></svg></span> <span title="本文字数">583</span><span class="post-meta-divider">-</span><span class="post-meta-item-icon" title="阅读时长"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-timer-line"></use></svg></span> <span title="阅读时长">2m</span></span></span><span class="leancloud_visitors" id="/2020/06/27/%E6%90%AD%E5%BB%BA%E7%AC%94%E8%AE%B0/" data-flag-title="搭建笔记"><span class="post-meta-divider">-</span><span class="post-meta-item-icon" title="阅读次数"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-eye-line"></use></svg> <span class="leancloud-visitors-count"></span></span></span><div class="post-classify"><span class="post-category"> <span class="post-meta-item-icon" style="margin-right:3px;"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-folder-line"></use></svg></span><span itemprop="about" itemscope itemtype="https://schema.org/Thing"><a class="category" href="/categories/%E7%AC%94%E8%AE%B0/" style="--text-color:dimgray" itemprop="url" rel="index"><span itemprop="text">笔记</span></a></span></span><span class="post-tag"><span class="post-meta-divider">-</span><a class="tag" href="/tags/%E6%97%A5%E5%B8%B8/" style="--text-color:#8892BF"><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-price-tag-3-line"></use></svg></span><span class="tag-name">日常</span></a><a class="tag" href="/tags/HEXO/" style="--text-color:var(--hty-text-color)"><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-price-tag-3-line"></use></svg></span><span class="tag-name">HEXO</span></a></span></div></div></header><section class="post-body" itemprop="articleBody"><div class="post-content markdown-body" style="--smc-primary:#a4b8e0;"><p>record</p>
+<a id="more"></a>
+
+<h3 id="搭建HEXO-GitHub-时踩过的坑"><a href="#搭建HEXO-GitHub-时踩过的坑" class="headerlink" title="搭建HEXO + GitHub 时踩过的坑"></a>搭建HEXO + GitHub 时踩过的坑</h3><h4 id="jsDeliver-Github-使用方法"><a href="#jsDeliver-Github-使用方法" class="headerlink" title="jsDeliver+Github 使用方法"></a>jsDeliver+Github 使用方法</h4><ol>
+<li>新建GitHub仓库 CDN</li>
+</ol>
+<br/>
+
+<ol start="2">
+<li>克隆到本地<br>在本地CDN目录上 git bash here</li>
+</ol>
+<br/>
+
+<ol start="3">
+<li><p>上传资源</p>
+<pre class="language-cpp" data-language="cpp"><code class="language-cpp">git status                    <span class="token comment">//查看状态</span>
+git <span class="token function">add</span> <span class="token punctuation">(</span>文件路径<span class="token punctuation">)</span> <span class="token punctuation">.</span>          <span class="token comment">//添加所有文件到暂存区</span>
+git commit <span class="token operator">-</span>m <span class="token string">"第n次提交"</span>     <span class="token comment">//把文件提交到仓库</span>
+git push                     <span class="token comment">//推送至远程仓库</span></code></pre>
+<br/>
+</li>
+<li><p>release<br>要自定义发布版本号</p>
+</li>
+</ol>
+<br/>
+
+<ol start="5">
+<li><p>通过jsDeliver引用资源</p>
+<pre class="language-cpp" data-language="cpp"><code class="language-cpp">https<span class="token operator">:</span><span class="token comment">//cdn.jsdelivr.net/gh/你的用户名/你的仓库名@发布的版本号/文件路径</span></code></pre>
+<h4 id="预览和GitHub-Pages不同"><a href="#预览和GitHub-Pages不同" class="headerlink" title="预览和GitHub Pages不同"></a>预览和GitHub Pages不同</h4></li>
+<li><p>原因:branch错误<br>不要在master分支上部署pages服务。<br>用hexo编译生成public文件夹后，将public文件夹推到另一个分支</p>
+</li>
+<li><p>具体解决</p>
+<ol>
+<li>仓库中新建分支ph-pages</li>
+<li>选择该分支</li>
+<li>/blog根目录下的_config.yml中找到branch，将master改为ph-pages</li>
+<li>/blog 下 git bash here，hexo clen &amp;&amp; hexo g &amp;&amp; hexo d</li>
+</ol>
+</li>
+</ol>
+<br/>
+
+<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/GAI159/article/details/105128186/?ops_request_misc=&request_id=&biz_id=102&utm_term=hexo%E9%A2%84%E8%A7%88%E5%92%8C%E7%94%9F%E6%88%90%E4%B8%8D%E5%90%8C&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduweb~default-0-105128186" title="解决hexo本地与部署不一致问题">参考资料</a></p>
+<h4 id="插入图片"><a href="#插入图片" class="headerlink" title="插入图片"></a>插入图片</h4><ul>
+<li>安装插件<ol>
+<li>把/blog/_config.yml 里的post_asset_folder:设置为true</li>
+<li><blockquote>
+<p>npm install hexo-asset-image –save</p>
+</blockquote>
+</li>
+<li>文章xxx.md所在文件夹内有一同名的文件夹</li>
+</ol>
+</li>
+<li>上传图片<ol start="4">
+<li>把图片放到上述文件夹内</li>
+<li>在文章中用  <code>![你想输入的替代文字](xxxx/图片名.jpg)</code></li>
+</ol>
+</li>
+</ul>
+<h4 id="使用prism-plugin"><a href="#使用prism-plugin" class="headerlink" title="使用prism-plugin"></a>使用prism-plugin</h4><ul>
+<li>使用方法<ul>
+<li>```xxx (语言)<br>[代码块 ]<br>```</li>
+</ul>
+</li>
+<li>语言和对应引用语<ul>
+<li><a target="_blank" rel="noopener" href="https://prismjs.com/#supported-languages" title="Supported languages">支持的语言</a></li>
+</ul>
+</li>
+</ul>
+<h4 id="特殊符号需要转义"><a href="#特殊符号需要转义" class="headerlink" title="特殊符号需要转义"></a>特殊符号需要转义</h4><ul>
+<li><p>加 \ 进行转义<br>比如方括号[]<br>则应书写为:  <code>\[\]</code></p>
+<blockquote>
+<p>适用于<br>\ ` * _ {} [] () # + - . !</p>
+</blockquote>
+</li>
+<li><p>反引号引用<br>比如我想要表示三个连用的反引号 <code>```</code>时<br>则应书写为: `` ``` ``</p>
+</li>
+</ul>
+<h4 id="文字居中-amp-amp-图片大小位置"><a href="#文字居中-amp-amp-图片大小位置" class="headerlink" title="文字居中 &amp;&amp; 图片大小位置"></a>文字居中 &amp;&amp; 图片大小位置</h4><ol>
+<li><p>文字</p>
+</li>
+<li><p>居中 </p>
+<blockquote>
+<p><code>&lt;center&gt;我在中间了吗&lt;/center&gt;</code></p>
+</blockquote>
+</li>
+<li><p>左(右)对齐</p>
+<blockquote>
+<p><code>&lt;p align=&quot;left&quot;&gt;左边还是右边嘞&lt;/p&gt;</code></p>
+</blockquote>
+</li>
+<li><p>图片</p>
+</li>
+<li><p>大小</p>
+<blockquote>
+<p><code>&lt;img src=&quot;./xxx.png&quot; width = &quot;300&quot; height = &quot;200&quot; alt=&quot;图片名称&quot;/&gt;</code></p>
+</blockquote>
+</li>
+<li><p>位置</p>
+<blockquote>
+<p><code>&lt;div align=&quot;center&quot;&gt;</code><br> <code>&lt;img src=&quot;图片地址&quot; height=&quot;300px&quot; alt=&quot;图片说明&quot; &gt;</code><br> <code>&lt;/div&gt;</code></p>
+</blockquote>
+<p>通过更改align属性可以修改图片左对齐、居中或者右对齐</p>
+</li>
+</ol>
+<h4 id="更改文字正文页面的透明度"><a href="#更改文字正文页面的透明度" class="headerlink" title="更改文字正文页面的透明度"></a>更改文字正文页面的透明度</h4><p>在 <code>\themes\hexo-theme-yun-dev\source\css\_global\index.styl</code>文件下<br>找到 <code>--post-block-bg-color: white;</code><br>改为 <code>--post-block-bg-color: rgba(255,255,255,0.7);</code><br>0.7 指的是透明度</p>
+<blockquote>
+<p>以上为light模式下，类似的，dark在 <code>global/dark.styl </code></p>
+</blockquote>
+</div><div id="reward-container"><span class="hty-icon-button button-glow" id="reward-button" title="打赏" onclick="var qr = document.getElementById(&quot;qr&quot;); qr.style.display = (qr.style.display === &quot;none&quot;) ? &quot;block&quot; : &quot;none&quot;;"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-hand-coin-line"></use></svg></span><div id="reward-comment">You Must Like Me For Me.</div><div id="qr" style="display:none;"><div style="display:inline-block"><a target="_blank" rel="noopener" href="https://cdn.jsdelivr.net/gh/JennyCruise/CDN@1.7/images/zhifubao.jpg"><img loading="lazy" src="https://cdn.jsdelivr.net/gh/JennyCruise/CDN@1.7/images/zhifubao.jpg" alt="支付宝" title="支付宝"></a><div><span style="color:#00A3EE"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-alipay-line"></use></svg></span></div></div></div></div><ul class="post-copyright"><li class="post-copyright-author"><strong>本文作者：</strong>Jenny Cruise</li><li class="post-copyright-link"><strong>本文链接：</strong><a href="http://example.com/2020/06/27/%E6%90%AD%E5%BB%BA%E7%AC%94%E8%AE%B0/" title="搭建笔记">http://example.com/2020/06/27/%E6%90%AD%E5%BB%BA%E7%AC%94%E8%AE%B0/</a></li><li class="post-copyright-license"><strong>版权声明：</strong>本博客所有文章除特别声明外，均默认采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" target="_blank" rel="noopener" title="CC BY-NC-SA 4.0 "><svg class="icon"><use xlink:href="#icon-creative-commons-line"></use></svg><svg class="icon"><use xlink:href="#icon-creative-commons-by-line"></use></svg><svg class="icon"><use xlink:href="#icon-creative-commons-nc-line"></use></svg><svg class="icon"><use xlink:href="#icon-creative-commons-sa-line"></use></svg></a> 许可协议。</li></ul></section></article><div class="post-nav"><div class="post-nav-item"><a class="post-nav-prev" href="/2020/12/10/%E9%A1%BA%E5%BA%8F%E8%A1%A8%E7%9A%84%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C/" rel="prev" title="顺序表"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-arrow-left-s-line"></use></svg><span class="post-nav-text">顺序表</span></a></div><div class="post-nav-item"></div></div></div><div id="comment"><div class="comment-tooltip text-center"><span>点击按钮跳转 GitHub Issues 评论。</span><br><span>若没有本文 Issue，您可以使用 Comment 模版新建。</span><br><a class="hty-button hty-button--raised" id="github-issues" target="_blank" rel="noopener" href="https://github.com/YunYouJun/yunyoujun.github.io/issues?q=is:issue+搭建笔记">GitHub Issues</a><a class="hty-button hty-button--raised" id="github-discussions" target="_blank" rel="noopener" href="https://github.com/YunYouJun/yunyoujun.github.io/discussions/new">GitHub Discussions</a></div></div></main><footer class="sidebar-translate" id="footer"><div class="copyright"><span>&copy; 2020 – 2021 </span><span class="with-love" id="animate"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-cloud-line"></use></svg></span><span class="author"> Jenny Cruise</span></div><div class="powered"><span>由 <a href="https://hexo.io" target="_blank" rel="noopener">Hexo</a> 驱动 v5.3.0</span><span class="footer-separator">|</span><span>主题 - <a rel="noopener" href="https://github.com/YunYouJun/hexo-theme-yun" target="_blank"><span>Yun</span></a> v1.4.0</span></div></footer><a class="hty-icon-button" id="goUp" aria-label="back-to-top" href="#"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-arrow-up-s-line"></use></svg><svg class="progress-circle-container" viewBox="0 0 100 100"><circle class="progress-circle" id="progressCircle" cx="50" cy="50" r="48" fill="none" stroke="#a4b8e0" stroke-width="2" stroke-linecap="round"></circle></svg></a><a class="popup-trigger hty-icon-button icon-search" id="search" href="javascript:;" title="搜索"><span class="site-state-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-search-line"></use></svg></span></a><script>window.addEventListener("DOMContentLoaded", () => {
+  // Handle and trigger popup window
+  document.querySelector(".popup-trigger").addEventListener("click", () => {
+    document.querySelector(".popup").classList.add("show");
+    setTimeout(() => {
+      document.querySelector(".search-input").focus();
+    }, 100);
+  });
+
+  // Monitor main search box
+  const onPopupClose = () => {
+    document.querySelector(".popup").classList.remove("show");
+  };
+
+  document.querySelector(".popup-btn-close").addEventListener("click", () => {
+    onPopupClose();
+  });
+
+  window.addEventListener("keyup", event => {
+    if (event.key === "Escape") {
+      onPopupClose();
+    }
+  });
+});
+</script><script src="/js/search/local-search.js" defer></script><div class="popup search-popup"><div class="search-header"><span class="popup-btn-close close-icon hty-icon-button"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-close-line"></use></svg></span></div><div class="search-input-container"><input class="search-input" id="local-search-input" type="text" placeholder="搜索..." value=""></div><div id="local-search-result"></div></div><div class="aplayer no-destroy" id="aplayer" data-id="5195876071" data-server="netease" data-type="playlist" data-fixed="true" data-theme="#a1ccd1" data-loop="all" data-order="random" data-preload="auto" data-volume="0.7" data-mutex data-lrctype="0" data-listfolded data-listmaxheight="340px" data-storagename="metingjs"></div></div></body></html>
